@@ -1,0 +1,44 @@
+[
+    {
+        "name": "lintangtimur/ovoid",
+        "version": "v1.2.4.2",
+        "version_normalized": "1.2.4.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lintangtimur/ovoid.git",
+            "reference": "c760fcab0e66f3b9663276cc0ca9c70ad4f67e27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lintangtimur/ovoid/zipball/c760fcab0e66f3b9663276cc0ca9c70ad4f67e27",
+            "reference": "c760fcab0e66f3b9663276cc0ca9c70ad4f67e27",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7",
+            "symfony/var-dumper": "^4.2"
+        },
+        "time": "2019-08-17T18:05:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/helper/function.php"
+            ],
+            "psr-4": {
+                "Stelin\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "lintangtimur",
+                "email": "lintangtimur915@gmail.com"
+            }
+        ],
+        "description": "Un-Official OVOID API Wrapper"
+    }
+]
